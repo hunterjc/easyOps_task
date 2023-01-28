@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>form</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+  <form id="form">
+    <p>Person's Name</p>
+    <label> <input type="text" id="fname"></label>
+    <label><input type="text" id="lname"></label>
+    <br><br>
+    <p>Contact Number</p>
+    <label> <input type="text" id="contact"></label>
+    <br><br>
+    <button type="submit">Save</button>
+  </form>
+
+
+  <div id="ans"></div>
+  <div id="name-header"></div>
+
+  <table id="table">
+    <thead>
+      <tr>
+        <th>SN.</th>
+        <th>Name</th>
+        <th>Contact</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <br /><br />
+    <tbody id="table-body"></tbody>
+  </table>
+
+
+  <script src="./scrpit1.js"></script>
+</body>
+
+</html>
